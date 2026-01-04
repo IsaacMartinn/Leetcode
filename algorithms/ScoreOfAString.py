@@ -6,3 +6,5 @@ class Solution:
         for i in range(1,len(char_list)):
             total += abs(ord(char_list[i]) - ord(char_list[i-1]))
         return total
+    
+#fix
