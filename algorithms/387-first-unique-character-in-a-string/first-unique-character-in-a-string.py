@@ -1,5 +1,7 @@
+from collections import defaultdict
+
 class Solution:
-    def firstUniqChar(self, s: str) -> int:
+    def firstUniqChar(self, s):
         freq = defaultdict(list)
         for char in s:
             freq[char].append(s.index(char))
