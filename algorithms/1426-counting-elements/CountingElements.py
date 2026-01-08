@@ -1,5 +1,5 @@
 class Solution:
-    def countElements(self, arr: List[int]) -> int:
+    def countElements(self, arr) -> int:
         hash_set = set(arr)
         count = 0
         for x in arr:
