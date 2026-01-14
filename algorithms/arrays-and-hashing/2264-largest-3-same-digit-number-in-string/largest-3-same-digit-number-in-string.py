@@ -13,4 +13,4 @@ class Solution:
 
         max_total = chr(highest_ord)+chr(highest_ord)+chr(highest_ord)
         return max_total
-        
+    
