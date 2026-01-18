@@ -1,5 +1,5 @@
 class Solution:
-    def firstPalindrome(self, words: List[str]) -> str:
+    def firstPalindrome(self, words):
         palindrome_word = ""
         for word in words:
             l, r = 0, len(word) - 1
