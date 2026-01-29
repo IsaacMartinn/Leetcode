@@ -4,8 +4,8 @@ class Solution:
         Do not return anything, modify nums in-place instead.
         """
         k %= len(nums)
+        
         l, r = 0, len(nums) - 1
-
         while l < r:
             nums[l], nums[r] = nums[r], nums[l]
             l, r = l + 1, r - 1
@@ -14,3 +14,9 @@ class Solution:
         while l < r:
             nums[l], nums[r] = nums[r], nums[l]
             l, r = l + 1, r - 1
+        
+        l, r = k, len(nums) -  1
+        while l < r: 
+            nums[l], nums[r] = nums[r], nums[l]
+            l, r = l + 1, r - 1
+        
