@@ -19,4 +19,6 @@ class Solution:
         while l < r: 
             nums[l], nums[r] = nums[r], nums[l]
             l, r = l + 1, r - 1
+            
+        return nums
         
